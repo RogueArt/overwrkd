@@ -8,3 +8,11 @@ edition = "2018"
 
 [dependencies]
 # iced = "0.3"
+
+[[bin]]
+name = "cli"
+path = "src/main.rs"
+
+[[bin]]
+name = "gui"
+path = "src/gui.rs"

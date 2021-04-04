@@ -19,15 +19,10 @@ pub fn same_line_input(message: &str) -> String {
     input
 }
 
-// TO-DO: Understand what .unwrap() is doing
+// TO-DO: Catch and handle errors in formatting
 pub fn get_num_seconds() -> u64 {
-    // Store input as a string
-    let mut input_seconds = String::new();
-    
     // Print number of seconds clock should run for on same line
-    print!("⏰ Number of seconds the clock should run for: ");
-    io::stdout().flush().unwrap();
-    io::stdin().read_line(&mut input_seconds).expect("Could not read line!");
+    let input_seconds = same_line_input("⏰ Number of seconds the clock should run for: ");
 
     // Convert number to seconds, return it
     input_seconds.trim().parse::<u64>().unwrap()

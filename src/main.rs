@@ -1,5 +1,3 @@
-use std::io::{self, Write};
-
 pub mod user_io;
 use user_io::get_num_seconds;
 
