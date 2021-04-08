@@ -1,6 +1,7 @@
 use iced::{button, window, Align, Button, Slider, Column, Element, Sandbox, Settings, Text};
 
 pub fn main() -> iced::Result {
+    /*
     let settings: iced::Settings<()> = Settings {
             window: window::Settings {
                 size: (10,20),
@@ -16,6 +17,9 @@ pub fn main() -> iced::Result {
         };
 
     Timer::run(settings)
+    */
+
+    Timer::run(Settings::default())
 }
 
 #[derive(Default)]
