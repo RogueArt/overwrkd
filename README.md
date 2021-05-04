@@ -1,8 +1,10 @@
 # About
 
-Pom is a simple pomodoro timer meant to be used as either a CLI tool or as a desktop GUI tool. It's platform compatible with all major operating systems and is written in the Rust language.
+Pom is a customizable pomodoro timer that comes in various flavors. It can be used as either a CLI tool or as a desktop GUI tool and it's platform compatible with all major operating systems. More information will be added as Pom reaches version 1.0.0.
 
-The motivation to write this in Rust came from the language's low memory footprint as well as the small sizes of the binaries making it easy to distribute.
+# Inspiration
+
+Pom is meant to be an improvement over the current loop timer I'm using. See [here](https://github.com/RogueArt/loop-timer/) for my **Windows only** loop timer.
 
 # Getting Started
 
