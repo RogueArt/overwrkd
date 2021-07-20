@@ -1,6 +1,6 @@
 # About
 
-Pom is a customizable pomodoro timer that comes in various flavors. It can be used as either a CLI tool or as a desktop GUI tool and it's platform compatible with all major operating systems. More information will be added as Pom reaches version 1.0.0.
+Overwrkd is a GUI application that helps you take proper breaks and prevents you from overworking. It can be used a Daemon that notifies you to take a break or a GUI app that shows you how it's tracking what kind of work you're doing. It's platform compatible with all major operating systems and can be used as a web app. More information will be added once Overwrkd reaches version 1.0.0.
 
 Pom is meant to be an improvement over the current loop timer I'm using. See [here](https://github.com/RogueArt/loop-timer/) for my **Windows only** loop timer.
 
